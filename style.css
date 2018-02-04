@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	 font-family: "raleway", sans-serif;
+	 text-align: center;
+	 font-size: 16px;
+   margin: 50px 50px 50px 50px;
+ }
+
+article p{
+ 	font-family: "lato", sans-serif;
+ 	font-size: 15px;
+ 	text-align: left;
+ 	padding-bottom: 20px;
+  color: #44545E;
+ }
+
+aside p{
+	font-family: "lato", sans-serif;
+	text-align: left;
+  color: #44545E;
+}
+
+nav a{
+	padding-left: 75px;
+	padding-right: 75px;
+	color: #7B98AA;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+a:hover {
+	color: red;
+}
+
+h1 a{
+  color: #44545E;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 37px;
+}
+
+header {
+	text-align:center;
+	font-size: 37px;
+	color: #44545E;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	text-align:center;
+	font-size: 37px;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	color: #FFFFFF;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+	}
+
+article h3 {
+	text-align:left;
+	font-size: 18px;
+}
+
+article h2 {
+	text-align:left;
+	text-transform: uppercase;
+	font-size: 23px;
+}
+
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+aside {
+	padding-top: 45px;
+}
+
+aside h3{
+	text-align: left;
+}
+
+
+li {
+  margin-left: 0;
+  padding-left: 0;
+	text-align: left;
+  color: #7B98AA;
+}
+
+.a {
+	margin-left: 0;
+	padding-left: 0;
+	text-align: left;
+	color: #7B98AA;
+	text-decoration: none;
+}
+
+footer a{
+	font-size: 15px;
+	text-align: center;
+  text-decoration: none;
+  color: #7B98AA;
+}
+
+footer p{
+	font-family: "lato", sans-serif;
+	font-size: 15px;
+	text-align: center;
+  color: #44545E;
+}
+
+footer {
+	background-color: #CDF3F6;
+	padding-top: 60px;
+}
+
+div {
+	font-size: 30px;
+	font-color: #44545E;
+	font-weight: 400;
+}
+
+input {
+	border: none;
+	color: white;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+hr {
+	border-style:bold;
+	color: black;
+	border-width: 3px;
+}
+
+button {
+  color: #44545E;
+	font-size: 12px;
+  border: 2px solid;
+	background-color: #CDF3F6;
+}
+
+.fa {
+  padding: 2px;
+  font-size: 30px;
+	font-weight: 900;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-column-gap: 20px;
+}
