@@ -1,0 +1,235 @@
+
+/* Add a link to GOOGLE FONTS LINK at the top! THis should be the first line of your stylesheet.*/
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+/*Note: fix so that images will scale with their containers. We'll chat about this more when we cover responsive design*/
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: "raleway", sans-serif;
+}
+
+Main {
+	font-family: "raleway", sans-serif;
+	font-style: 37px;
+	text-align: center;
+}
+
+header main{
+	text-align:center;
+	font-size: 37px;
+	color: #44545E;
+}
+
+.centered {
+  position: absolute;
+	font-family: "raleway", sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	text-align:center;
+	font-size: 37px;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	color: #FFFFFF;
+}
+
+.L {
+	text-align:center;
+	font-family: "raleway", sans-serif;
+	position:absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-55%, -5%);
+	text-align: center;
+	font-size: 23px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-family: "raleway", sans-serif;
+	font-size: 23px;
+	color: #44545E;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: "raleway", sans-serif;
+	font-size: 18px;
+	margin-left: 30px;
+	margin-right: 30px;
+  padding-bottom: 20px;
+	text-align: center;
+	color: #44545E;
+}
+
+.grid-container {
+	display: grid;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	grid-template-columns: 2fr 2fr 2fr;
+}
+
+a {
+	font-family: "raleway", sans-serif;
+	color: #7B98AA;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 40px 40px 40px 40px;
+}
+
+nav {
+	text-align: center;
+	padding: 30px;
+}
+
+div {
+	margin: 30px;
+}
+
+
+h4 {
+	font-family: "raleway", sans-serif;
+	font-size: 23px;
+	margin-left: 10px;
+	margin-left: 10px;
+}
+
+h5 {
+	text-align: center;
+	font-family: "raleway", sans-serif;
+	font-size: 23px;
+	color: #44545E;
+	padding-bottom: 5px;
+}
+
+
+aside div {
+	text-align: center;
+	font-family: "raleway", sans-serif;
+	font-size: 18px;
+}
+
+aside img {
+	border: 0 none;
+  display: inline-block;
+	height: 100px;
+  width: 32%;
+  margin-left: 20px;
+	padding: 10px 10px 10px 10px;
+  height: auto;
+  max-width: 30%;
+  vertical-align:top;
+}
+
+p {
+	font-family: "lato", sans-serif;
+	font-size: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align:center;
+	color: #44545E;
+}
+
+article p {
+	font-family: "lato", sans-serif;
+	font-size: 15px;
+	line-height: 2.0;
+	margin:inherit;
+}
+
+article {
+	text-align: center;
+	font-family: "lato", sans-serif;
+	font-size: 15px;
+	background-color: #CDF3F6;
+	margin-bottom: 40px;
+	padding-top: 70px;
+	padding-bottom: 200px;
+}
+
+a:hover {
+	color: red;
+}
+
+footer .fa {
+font-size: 25px;
+color: #7B98AA;
+text-align:center;
+}
+
+
+footer {
+align-items: center;
+background-color: #CDF3F6;
+text-align: center;
+font-family: "lato", sans-serif;
+font-size: 15px;
+}
+
+p a {
+	font-family: "lato", sans-serif;
+	font-size: 15px;
+	color: #44545E;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.fa:hover {
+  color: red;
+}
+
+label {
+	text-align: center;
+	color: #44545E;
+	background-color: #CDF3F6;
+	font-size: 15px;
+	border: 2px solid;
+	margin-left: 20px;
+}
+
+button {
+	margin: 10px;
+	color: #44545E;
+	font-size: 15px;
+  border: 2px solid;
+	margin-left: 90px;
+	align-items: center;
+	margin-top: 0;
+	margin-right: 10px;
+}
+
+button:hover {
+	color: red;
+}
+
+@media screen and (max-width: 964px) {
+	.hamburger {
+			display: block;
+			grid-template-columns: repeat(4fr, 1fr)
+}
+
+@media screen and (max-width: 634px) {
+			body {
+			display: block;
+			grid-template-columns: repeat(2fr, 1fr)
+}
+
+@media screen and (max-width: 420px) {
+			body {
+			display: block;
+			grid-template-columns: repeat(1fr, 1fr)
+}
